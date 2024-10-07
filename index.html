@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Compra en línea tus productos favoritos de nuestra panadería">
+<meta name="keywords" content="pan, dorado, pastel, repostería, desayunos, galletería">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="icon" type="image/png" href="recursos/logofavicon.png">
+<title>Panadería Pan Dorado</title>
 </head>
 
 <body>
-  <div class="row">
+<div class="container">
+<nav class="nav-wrapper">
+<div class="logo">
+<a href=""><img src="recursos/logo.png" alt="LogopanDorado" style="max-width: 50px;"></a>
+</div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+    </label>
+    <ul class="nav-right">
+    <li><a href="#encabezado">Inicio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#productos">Productos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    </nav>
 
-    <div class="col s4 deep-purple lighten-2">lila</div>
-    <div class="col s4 blue lighten-1">Azul</div>
-    <div class="col s4 lime">Limon</div>
+    <header id="encabezado" class="center">
+    <h1>Panadería Pan Dorado</h1>
+    <h2>Bienvenidos</h2>
+    <h3><i>Sabores de nuestra Tierra</i></h3>
+    <button class="btn waves-effect">Llamanos Ya</button>
+    <button class="btn waves-effect" onclick="modoOscuro();">Modo Oscuro</button>
+    </header>
 
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <section>
+      <div class="botton-chat">
+      <button class="btn-chat">
+      <span class="material-symbols-outlined">
+      chat
+      </span>
+      Chat
+      </button>
+      </div>
+    </section>
+</div>
+<script src="night.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 </html>
